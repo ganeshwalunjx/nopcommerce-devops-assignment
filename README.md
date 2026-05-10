@@ -83,11 +83,6 @@ Repository URL:
 
 https://github.com/GaneshWalunjX/nopcommerce-devops-assignment
 
----
-
-## ROUGE and BLEU Scores
-
-ROUGE and BLEU scores are generally used for NLP model evaluation and are not directly applicable for this DevOps implementation.
 
 ---
 
