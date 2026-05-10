@@ -1,4 +1,107 @@
-﻿﻿nopCommerce: free and open-source eCommerce solution
+﻿﻿# DevOps Assignment Documentation
+
+This repository was used for a DevOps practical assignment based on nopCommerce.
+
+## Objective
+
+Create a CI/CD pipeline to build and deploy nopCommerce using Docker, MSSQL, Jenkins, and HTTPS exposure using ngrok.
+
+---
+
+## Technologies Used
+
+- Jenkins
+- Docker
+- Docker Compose
+- MSSQL Server
+- GitHub
+- ngrok
+
+---
+
+## Steps Performed
+
+### 1. Cloned nopCommerce Repository
+
+Used the nopCommerce source code from GitHub.
+
+---
+
+### 2. Built Docker Containers
+
+Used the existing Dockerfile and docker-compose configuration available in the repository.
+
+Command used:
+
+```bash
+docker compose build
+```
+
+---
+
+### 3. MSSQL Database Setup
+
+Started MSSQL database container and connected it with nopCommerce.
+
+Command used:
+
+```bash
+docker compose up -d
+```
+
+---
+
+### 4. Jenkins CI/CD Pipeline
+
+Created a declarative Jenkins pipeline to automate:
+- Pull latest code from GitHub
+- Build Docker image
+- Deploy containers
+- Verify deployment
+
+Pipeline file:
+
+```text
+Jenkinsfile
+```
+
+---
+
+### 5. HTTPS / SSL Termination
+
+Used ngrok to expose the application securely over HTTPS.
+
+Public URL:
+
+https://pod-sabotage-trillion.ngrok-free.dev
+
+---
+
+## GitHub Repository
+
+Repository URL:
+
+https://github.com/GaneshWalunjX/nopcommerce-devops-assignment
+
+---
+
+## ROUGE and BLEU Scores
+
+ROUGE and BLEU scores are generally used for NLP model evaluation and are not directly applicable for this DevOps implementation.
+
+---
+
+## Final Result
+
+Successfully deployed nopCommerce using:
+- Docker
+- MSSQL
+- Jenkins CI/CD
+- ngrok HTTPS exposure
+
+
+
+nopCommerce: free and open-source eCommerce solution
 ===========
 
 [nopCommerce](https://www.nopcommerce.com/?utm_source=github&utm_medium=content&utm_campaign=homepage) is the best open-source eCommerce platform. nopCommerce is free, and it is the most popular ASP.NET Core shopping cart.
