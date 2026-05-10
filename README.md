@@ -95,6 +95,15 @@ Successfully deployed nopCommerce using:
 - ngrok HTTPS exposure
 
 
+---
+
+This assignment was completed using Jenkins, Docker, MSSQL, and ngrok for deployment and HTTPS access.
+
+The existing nopCommerce Docker configuration files were used and integrated with Jenkins CI/CD automation.
+
+---
+
+
 
 nopCommerce: free and open-source eCommerce solution
 ===========
