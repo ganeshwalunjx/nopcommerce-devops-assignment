@@ -4,9 +4,10 @@ pipeline {
 
     stages {
 
-        stage('Checkout SCM') {
+        stage('Clone Repository') {
             steps {
-                checkout scm
+                git branch: 'main',
+                url: 'https://github.com/GaneshWalunjX/nopcommerce-devops-assignment.git'
             }
         }
 
